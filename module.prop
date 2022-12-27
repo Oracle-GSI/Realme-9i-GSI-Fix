@@ -1,0 +1,7 @@
+id=rmx3491-overlay
+name=Realme 9i Overlay 
+version=v2.0
+versionCode=10
+author=Oracle-GSI
+description=This module installs the necessary overlay for the correct function of the GSI on Realme 9i
+updateJson=https://raw.githubusercontent.com/Oracle-GSI/Realme-9i-overlay/master/update.json
