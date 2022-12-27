@@ -7,51 +7,64 @@ MODDIR=${0%/*}
 # More info in the main Magisk thread
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
 
 sleep 30
 
 echo 1 > /sys/class/power_supply/usb/otg_switch
+echo 1 > /sys/class/oplus_chg/usb/otg_switch 1
