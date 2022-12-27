@@ -1,6 +1,6 @@
 ##########################################################################################
 #
-# MMT Extended Config Script
+# Config Script
 #
 ##########################################################################################
 
@@ -54,7 +54,8 @@ set_permissions() {
   
   # For directories (includes files in them):
   # set_perm_recursive  <dirname>                <owner> <group> <dirpermission> <filepermission> <contexts> (default: u:object_r:system_file:s0)
-    
+  
+    	set_perm_recursive  $MODPATH  0  0  0755  0644
 	set_perm_recursive $MODPATH/system/bin 0 0 0755 0644
 	set_perm_recursive $MODPATH/system/phh/ 0 0 0755 0644
 	set_perm_recursive $MODPATH/system/usr/keylayout/ 0 0 0755 0644
@@ -70,7 +71,7 @@ set_permissions() {
 }
 
 ##########################################################################################
-# MMT Extended Logic - Don't modify anything after this
+# Don't modify anything after this
 ##########################################################################################
 
 SKIPUNZIP=1
